@@ -6,7 +6,7 @@ $length = $isbn.length
 $sum = 0
 $mode = 10
 
-#Start while loop to get sum of ISBN
+#Start for loop to get sum of ISBN
 for i in 0.. $length
   $sum += (i % 2 )== 0? $isbn[i].to_i * 1 : $isbn[i].to_i * 3
 end
